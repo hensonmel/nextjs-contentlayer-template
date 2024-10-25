@@ -31,8 +31,8 @@ After downloading the template, follow these steps to get started:
   npm run dev
   ```
 
-## Deployment
+### Deploy to production
 
-### One-click Installation
+- One-click Installation
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhensonmel%2Fnextjs-contentlayer-template)
+  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhensonmel%2Fnextjs-contentlayer-template)
