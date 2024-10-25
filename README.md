@@ -17,7 +17,7 @@ A template for building modern web apps with Next.js 13 App Router, Contentlayer
 
 After downloading the template, follow these steps to get started:
 
-### Local setup
+### Local Setup
 
 - Install dependencies
 
@@ -31,7 +31,7 @@ After downloading the template, follow these steps to get started:
   npm run dev
   ```
 
-### Deploy to production
+### Deploy to Production
 
 - One-click Installation
 
