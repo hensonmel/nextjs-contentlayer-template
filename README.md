@@ -1,38 +1,43 @@
-# Next.js 13 App Router Starter Kit
+# nextjs-contentlayer-template
 
-A template for building modern web apps with Next.js 13 App Router, Contentlayer, Tailwind CSS, and dark mode.
+A modern web app template based on [shadcn/next-contentlayer](https://github.com/shadcn/next-contentlayer), updated with the latest Next.js App Router, Contentlayer, Tailwind CSS, and dark mode.
 
 [Live Demo](https://nextjs-contentlayer-template.vercel.app/)
 
 ## Features
 
-- Next.js 13 App Directory
-- Contentlayer
+- Next.js 14 App Directory
+- React 18
+- Contentlayer 2 *(maintained Contentlayer [fork](https://github.com/timlrx/contentlayer2))*
 - Tailwind CSS
 - Dark mode with `next-themes`
 - Icons from [Lucide](https://lucide.dev/)
-- Class sorting, merging and linting support for ESLint, Prettier and Tailwind CSS
+- Class sorting, linting, and merging support for ESLint, Prettier and Tailwind CSS
 
-## Installation
+## Getting Started
 
-After downloading the template, follow these steps to get started:
+### Install Dependencies
 
-### Local Setup
+Ensure you have Node.js and npm (or yarn) installed. Then, in your terminal, navigate to your project directory and run:
 
-- Install dependencies
+```
+npm install
+```
 
-  ```
-  npm install
-  ```
+### Start the Development Server
 
-- Run locally
+To run your app locally, execute:
 
-  ```
-  npm run dev
-  ```
+```
+npm run dev
+```
 
-### Deploy to Production
+## Deploy to Production
 
-- One-click Installation
+The most convenient way to deploy your Next.js app is by using Vercel, the platform created by the Next.js team.
 
-  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhensonmel%2Fnextjs-contentlayer-template)
+### One-click Deployment
+
+Vercel offers a seamless deployment process with just a single click.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhensonmel%2Fnextjs-contentlayer-template)
