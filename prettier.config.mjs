@@ -5,8 +5,8 @@ const config = {
   tabWidth: 2,
   semi: false,
   plugins: [
-    "prettier-plugin-tailwindcss",
     "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss",
   ],
   importOrder: [
     "^(react/(.*)$)|^(react$)",
