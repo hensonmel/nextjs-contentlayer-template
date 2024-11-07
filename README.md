@@ -8,7 +8,7 @@ A modern web app template based on [shadcn/next-contentlayer](https://github.com
 
 - Next.js 14 App Directory
 - React 18
-- Contentlayer 2 *(maintained Contentlayer [fork](https://github.com/timlrx/contentlayer2))*
+- Contentlayer 2 _(maintained Contentlayer [fork](https://github.com/timlrx/contentlayer2))_
 - Tailwind CSS
 - Dark mode with `next-themes`
 - Icons from [Lucide](https://lucide.dev/)

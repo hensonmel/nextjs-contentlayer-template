@@ -14,6 +14,7 @@ async function getPageFromParams(params: PageProps["params"]) {
   const page = allPages.find((page) => page.slugAsParams === slug)
 
   if (!page) {
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     null
   }
 

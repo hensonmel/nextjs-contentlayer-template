@@ -14,6 +14,7 @@ async function getPostFromParams(params: PostProps["params"]) {
   const post = allPosts.find((post) => post.slugAsParams === slug)
 
   if (!post) {
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     null
   }
 
