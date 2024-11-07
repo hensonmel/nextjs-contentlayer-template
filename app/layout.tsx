@@ -1,9 +1,10 @@
 import localFont from "next/font/local"
-import type { Metadata } from "next"
-import "./globals.css"
 import Link from "next/link"
+import { Analytics } from "@vercel/analytics/react"
+import type { Metadata } from "next"
 import { ModeToggle } from "@/components/mode-toggle"
 import { ThemeProvider } from "@/components/theme-provider"
+import "./globals.css"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50`}
+        className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-white text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-50`}
       >
         <ThemeProvider
           attribute="class"
@@ -37,7 +38,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="max-w-2xl mx-auto py-10 px-4">
+          <div className="mx-auto max-w-2xl px-4 py-10">
             <header className="flex items-center justify-between gap-6 md:gap-10">
               <Link href="/" className="flex items-center space-x-2">
                 <span className="inline-block text-lg font-bold">
@@ -52,6 +53,7 @@ export default function RootLayout({
             </header>
             <main>{children}</main>
           </div>
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
