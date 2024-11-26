@@ -2,9 +2,15 @@
   "name": "nextjs-contentlayer-template",
   "version": "2.0.0",
   "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "@hensonmel",
+    "url": "https://hnsnml.co"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:content": "contentlayer2 build",
     "start": "next start",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
@@ -21,7 +27,6 @@
     "next": "14.2.16",
     "next-contentlayer2": "^0.5.1",
     "next-themes": "^0.3.0",
-    "nextjs-contentlayer-template": "file:",
     "react": "^18",
     "react-dom": "^18"
   },

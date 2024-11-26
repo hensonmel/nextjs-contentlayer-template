@@ -13,8 +13,24 @@ const gitignorePath = path.resolve(__dirname, ".gitignore")
 
 export default [
   includeIgnoreFile(gitignorePath),
-  { files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"] },
-  { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
+  {
+    settings: {
+      react: {
+        version: "detect",
+      },
+    },
+  },
+  {
+    files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],
+  },
+  {
+    languageOptions: {
+      globals: {
+        ...globals.browser,
+        ...globals.node,
+      },
+    },
+  },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,

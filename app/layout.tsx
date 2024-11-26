@@ -1,7 +1,7 @@
 import localFont from "next/font/local"
 import Link from "next/link"
-import { Analytics } from "@vercel/analytics/react"
 import type { Metadata } from "next"
+import { Analytics } from "@vercel/analytics/react"
 import { ModeToggle } from "@/components/mode-toggle"
 import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
