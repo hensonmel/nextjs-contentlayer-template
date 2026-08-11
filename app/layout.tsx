@@ -1,7 +1,6 @@
 import localFont from "next/font/local"
 import Link from "next/link"
 import type { Metadata } from "next"
-import { Analytics } from "@vercel/analytics/react"
 import { ModeToggle } from "@/components/mode-toggle"
 import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
@@ -53,7 +52,6 @@ export default function RootLayout({
             </header>
             <main>{children}</main>
           </div>
-          <Analytics />
         </ThemeProvider>
       </body>
     </html>
