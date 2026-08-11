@@ -2,7 +2,7 @@
 
 A modern web app template based on [shadcn/next-contentlayer](https://github.com/shadcn/next-contentlayer), updated with the latest Next.js App Router, Contentlayer, Tailwind CSS, and dark mode.
 
-[Live Demo](https://nextjs-contentlayer-template.netlify.app/)
+**[Live Demo](https://nextjs-contentlayer-template.netlify.app/)**
 
 ## Features
 
